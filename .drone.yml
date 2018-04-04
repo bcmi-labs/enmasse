@@ -4,7 +4,7 @@ pipeline:
     # the context path to use, defaults to root of the git repo
     context: ./router/
     dockerfile: ./router/Dockerfile
-    repo: 964913460425.dkr.ecr.eu-central-1.amazonaws.com/enmasse-router
+    repo: enmasse-router
     registry: 964913460425.dkr.ecr.eu-central-1.amazonaws.com
     secrets: [ ecr_access_key, ecr_secret_key ]
     tags: latest
