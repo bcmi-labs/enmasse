@@ -19,14 +19,14 @@
 
 linkRoute {
     name: override.kafka_out
-    prefix: kafka
+    prefix: telemetry
     dir: out
     containerId: amqp-kafka-bridge-service
 }
 
 linkRoute {
     name: override.kafka_in
-    prefix: kafka
+    prefix: telemetry
     dir: in
     containerId: amqp-kafka-bridge-service
 }
