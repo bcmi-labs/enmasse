@@ -1,6 +1,7 @@
 pipeline:
   ecr:
     image: plugins/ecr
+    region: eu-central-1
     # the context path to use, defaults to root of the git repo
     context: ./router/
     dockerfile: ./router/Dockerfile
