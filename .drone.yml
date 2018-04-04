@@ -2,7 +2,7 @@ pipeline:
   ecr:
     image: plugins/ecr
     # the context path to use, defaults to root of the git repo
-    context: router/
+    context: ./router
     repo: 964913460425.dkr.ecr.eu-central-1.amazonaws.com/enmasse-router
     registry: 964913460425.dkr.ecr.eu-central-1.amazonaws.com
     secrets: [ ecr_access_key, ecr_secret_key ]
